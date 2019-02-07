@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9C6443911EC1409300BC1958 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C6443901EC1409300BC1958 /* main.c */; };
-		9CA1C74F220CEB0C002364C2 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA1C74E220CEB0C002364C2 /* libSystem.tbd */; };
+		9CA1C751220CEEF6002364C2 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA1C750220CEEF6002364C2 /* libSystem.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,7 @@
 /* Begin PBXFileReference section */
 		9C64438D1EC1409300BC1958 /* upc-keys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "upc-keys"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6443901EC1409300BC1958 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		9CA1C749220CE6B4002364C2 /* libcommonCrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcommonCrypto.tbd; path = usr/lib/system/libcommonCrypto.tbd; sourceTree = SDKROOT; };
-		9CA1C74B220CE88B002364C2 /* libsystem_c.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsystem_c.tbd; path = usr/lib/system/libsystem_c.tbd; sourceTree = SDKROOT; };
-		9CA1C74E220CEB0C002364C2 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		9CA1C750220CEEF6002364C2 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA1C74F220CEB0C002364C2 /* libSystem.tbd in Frameworks */,
+				9CA1C751220CEEF6002364C2 /* libSystem.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +69,7 @@
 		9CA1C748220CE6B3002364C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CA1C74E220CEB0C002364C2 /* libSystem.tbd */,
-				9CA1C74B220CE88B002364C2 /* libsystem_c.tbd */,
-				9CA1C749220CE6B4002364C2 /* libcommonCrypto.tbd */,
+				9CA1C750220CEEF6002364C2 /* libSystem.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
